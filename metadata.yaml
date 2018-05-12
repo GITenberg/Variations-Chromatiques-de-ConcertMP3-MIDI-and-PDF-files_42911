@@ -21,6 +21,8 @@ creator:
     gutenberg_agent_id: '41925'
     url: http://www.gutenberg.org/2009/agents/41925
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/42911#Variations-Chromatiques-de-ConcertMP3-MIDI-and-PDF-files
 gutenberg_issued: '2013-06-11'
 gutenberg_type: Text
 identifiers:
