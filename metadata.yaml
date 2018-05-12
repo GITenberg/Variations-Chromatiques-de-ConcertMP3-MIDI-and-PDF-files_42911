@@ -1,0 +1,38 @@
+_repo: Variations-Chromatiques-de-ConcertMP3-MIDI-and-PDF-files_42911
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Bizet, Georges
+    aliases:
+    - Bizet, Alexandre César Léopold
+    - Bizet, Alexandre Cesar Leopold
+    birthdate: 1838
+    deathdate: 1875
+    gutenberg_agent_id: '31624'
+    url: http://www.gutenberg.org/2009/agents/31624
+    wikipedia:
+    - http://en.wikipedia.org/wiki/Georges_Bizet
+    - http://fr.wikipedia.org/wiki/Georges_Bizet
+  editor:
+    agent_name: Jong, Songmuh
+    gutenberg_agent_id: '41925'
+    url: http://www.gutenberg.org/2009/agents/41925
+description: ''
+gutenberg_issued: '2013-06-11'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '42911'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'Variations (Piano)'
+- !lcc 'M'
+title: 'Variations Chromatiques de Concert
+
+  MP3, MIDI and PDF files'
+url: http://www.gutenberg.org/ebooks/42911
