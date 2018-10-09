@@ -1,788 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:marcrel="http://id.loc.gov/vocabulary/relators/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
 >
   <pgterms:ebook rdf:about="ebooks/42911">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_09.mid">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_14.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4405</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3795</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T15:06:32</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndd5c72ec59b042efb589815b58c66def">
+          <rdf:Description rdf:nodeID="Nca2f2f57b070403996e37af23697ca0f">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:44:50</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_09.mp3">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N7945ddc6087c475aae37db083412ae4e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:47:30</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478562</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_10_letter.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N180e9f86aaf5434db119ef912432eb4a">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71334</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:09:36</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_Coda_letter.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-26T00:06:28</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133523</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nddb3307c26ab41098792761c8d0fbeef">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_14.mp3">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N162feb7bd74c4fabbe27e50d331810a8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T04:04:44</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">706350</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_Coda.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12179</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-26T00:05:38</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf5371270438f4e219317d4b44d47c0e8">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_04.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5353</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:54:02</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9f38e9c304f74d0bbc1822cfeebbac46">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_10.mp3">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:12:26</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne8c08c7b1dae4d319cdc20cd3e134f16">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478562</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_Coda_A4.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133931</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-26T00:06:38</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5a93960dc0754f13bcff00da69e36a7d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="N109cd5ac617b4dbbbc9896a9f1d76e78">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_01.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T07:21:16</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N37e4315317cf4847bd2fe2acd5a2af2a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2952</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0cb6b1bb315d473ca59d5c8fbcd7fef6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10547</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-11T19:26:51.787125</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_03.mp3">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfdc2ef511a4f4c09a40522e1c8728bc7">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:04:48</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">545853</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="Nfb57d890c475498ab7a212bdedf51ec1">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_Theme_A4.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T06:59:12</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64989</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N691a4adf413a4f308fe138f647c40b9b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_03.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:00:20</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4605</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf0d0c4e4ff424afb8ce01810b6b7fbc8">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N37c7cc2cb64f4ac2b758e79e5783b570">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N62785c6d0e2c48a29a00142f0e65b9ea">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2387676</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-16T20:11:36</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_14_A4.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T15:06:38</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6f0db56f6ed94b43b6911578040df279">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74047</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_01_A4.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd8f5e4a855d747649740cd32aef5ab28">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T07:21:12</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73464</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_06.mp3">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464351</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9d7b24f4d4df41278f2de36834d7f539">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:52:08</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.txt.utf-8">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N4773dfeee38241aab6912fec32b9ca48">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19972</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-11T19:26:48.884303</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_08_A4.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd54a66eeeaf746d79c0580dd843b3829">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62212</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:13:24</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_02_letter.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T05:32:46</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0f0c49d4b4644a7d912f3f11c1b96590">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78431</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_07.mp3">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T03:45:16</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1b0da5e6a2754f2e97fd8fe42aff6563">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">554212</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_02_A4.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78391</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N48bc17a5be544093b2dce72fe592ebc9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T05:32:40</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.html.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Naa0b3229b0324928a1855cf2caf6aaaa">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23060</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-11T19:26:51.232158</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_12_letter.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69619</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:22:42</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6310e210bc3d4724956e74dfb922c20d">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_08.mp3">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:30:28</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">546689</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N620a850b79c146f6b64b1e554a427ea0">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1400e57ac24a42f8b385b89deb0c6f87">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nba13d5da81fe4f8b80259e60fd642926">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10594312</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-16T20:11:39</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_Theme_letter.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf64d575975aa4a00b9b0b47890ca039d">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65029</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T06:59:08</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_10_A4.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:09:42</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71269</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N34394bb2c4054169873977e25a09cc33">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_05_A4.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68613</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na9035f216fda417daf560b84cd6e5b60">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:18:16</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_11.mp3">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">613145</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3fcf25dcc13a4eff8cb8c1a9200aa7ac">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T05:51:16</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_08.mid">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:27:46</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N00e27aede5af4f52b6253887b3f1e174">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2868</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_07_A4.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6cba72f0f151495f9c7ce85882b27426">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81922</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T03:42:14</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_04.mp3">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:56:40</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">504057</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N10c57d1099db473fbd378c3a3e3a42d2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_13.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15430</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndd463c84ee184c0b9bfa7c92b346bd1b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:38:30</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-11</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.qioo">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-11T19:26:48.916305</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69165</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc591794b82fe48538b59ab1397122244">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_05.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na84c7b2104c24dc9be41bd9f6a79c9d5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:18:10</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N99bd21e3ee1e48f1aec43acf9a2c00a7">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14597</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_11.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4407</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N80bf4d1bd8924f55ae1e16d6f131c7bc">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:38:46</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>Variations Chromatiques de Concert
-MP3, MIDI and PDF files</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_06.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2c97241fd7a048b9b414e116a852cf60">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:49:10</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7844</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-11T19:26:51.330149</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N109127761e794d5b8a9f73f65ca0b0ff">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10324</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_05_letter.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Na32663a4dc78466a80f39e573276982f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:18:12</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66923</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/31624">
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1838</pgterms:birthdate>
-        <pgterms:alias>Bizet, Alexandre César Léopold</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</pgterms:deathdate>
-        <pgterms:name>Bizet, Georges</pgterms:name>
-        <pgterms:alias>Bizet, Alexandre Cesar Leopold</pgterms:alias>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Georges_Bizet"/>
-        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Georges_Bizet"/>
-      </pgterms:agent>
-    </dcterms:creator>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_04_A4.pdf">
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81117</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6cb8cf2dc01d4e6186613501d0543d42">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:54:08</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_03_A4.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85617</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:00:28</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nef1e67319adc4357999a75b04aedac38">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="Ne122e12ff4824ae496bfc475059fcc13">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_02.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4201</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T05:32:44</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N053ff49f364746839e18026e38c7ada3">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_Coda.mp3">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N60d87603f0dd4927bd1effb7fc8adce5">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1847378</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-26T00:17:50</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_09_letter.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5a33c185f05045a8aaaf93976e05b029">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:44:50</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70844</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_06_A4.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93630</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:44:50</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N9966b7e5a82042f18305702aeae69f05">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:49:18</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.kindle.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-11T19:26:51.614134</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59648</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N5f4a938ce0c3481fbfb73fbdc28f96ca">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_07.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29885</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T03:42:10</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N38838b692c8846b7a9d631408d8b30d6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_12.mp3">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">446379</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:25:26</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3c0539d03b074a85accce6c1b5ffcf1f">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_11_letter.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1a9ffffae0144bb1b2a86647fff7dc6a">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92478</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:38:48</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_13.mp3">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">644492</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:40:40</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Neb0c709e51df4a7ab120e5b1815a574b">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_12_A4.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nab4f231e280f4dcab7d28130bcda3d22">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69560</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:22:48</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_04_letter.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79971</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8fb774f3d6b84fd2ac2e94a614109d42">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:54:04</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_07_letter.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T03:42:10</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncee3dc72a93c43b68129aec6862102ea">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81793</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_10.mid">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N786386a29a894f8883bdfa86a5547fa6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:09:36</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4437</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_13_letter.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64857</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:38:30</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N2251450b1b0c4cbfa3079c45da2a2f65">
+          <rdf:Description rdf:nodeID="Na965bacde83740c5a8991d9faa818130">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
@@ -790,138 +62,15 @@ MP3, MIDI and PDF files</dcterms:title>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_01_letter.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T07:21:16</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_05_letter.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:18:12</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N35e0c762b9b94b0c85cfd90da38fcf04">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73506</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_14_letter.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T15:06:34</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nceca87c7f3df4545a80c0fda758f6c29">
+          <rdf:Description rdf:nodeID="Ndff6c9dfab004fbab278b05820855139">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74070</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_06_letter.pdf">
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:49:12</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N3ebcdf06718d4cc7a6f1cc9fd4bed4a3">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93505</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_13_A4.pdf">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:38:34</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64887</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne0d80b2d72ac4bb79c9895183fe1efe5">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_08_letter.pdf">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N9682f1e53af34271897d1085d4b66bf3">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62430</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:13:20</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_12.mid">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8fa1f0ac9b6b4218a869a8035b2fd0c9">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:22:40</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4454</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_Theme.mp3">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">854214</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-19T05:55:46</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N42c8872aa2f84429b5e246ae6f07dd14">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <marcrel:edt>
-      <pgterms:agent rdf:about="2009/agents/41925">
-        <pgterms:name>Jong, Songmuh</pgterms:name>
-      </pgterms:agent>
-    </marcrel:edt>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_01.mp3">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">694229</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T05:50:02</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndfa45c7a89b64fa6a341db7b317fad4e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/42911.txt">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N72f746ed91b4441e9940140fac4b1d55">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19969</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-10T21:06:42</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_03_letter.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85382</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:00:22</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N75c9855a09de4852bd9765c9e0b4c9f4">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66923</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
       </pgterms:file>
     </dcterms:hasFormat>
@@ -931,86 +80,978 @@ MP3, MIDI and PDF files</dcterms:title>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:21:24</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ned763adec49b4bdea871bfc0dbee031f">
+          <rdf:Description rdf:nodeID="N4bc9a4e03dc54be7a51be1927b37f4d5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_12.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4454</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:22:40</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc7124954e24b4482b676e34126cc242b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_14.mid">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4405</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T15:06:32</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_Theme.mp3">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-19T05:55:46</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N25bceb92e3e34d8a9635b6af1c7b8e32">
+          <rdf:Description rdf:nodeID="N37213122e8bf40b3a4bde34fc2ff65ef">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">854214</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_Theme_A4.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64989</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfdce1d7427844e519dc56ddeedd98e1b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T06:59:12</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_Coda_A4.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133931</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-26T00:06:38</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5bfcc73fdaab4677adbe10a02f0157d5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_Theme.mid">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_10_letter.pdf">
         <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-09T01:19:36</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71334</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbf1a5e9a66d64d51ac639a6e08f209a1">
+          <rdf:Description rdf:nodeID="Nc7d5352bf59f43ab9f0f3b751b6f7b19">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:09:36</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.rdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T06:36:41.434986</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">66478</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nce0825b945ca4805808245d155071cd2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_09_A4.pdf">
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:44:56</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73329</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N80d7c80572ee44819c3ff59aa046c4aa">
+          <rdf:Description rdf:nodeID="N10ac8b284345451e9c0b6c78779d8673">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73329</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_02.mp3">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">639894</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_02_A4.pdf">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N2965b5e5c34642549688087f076b2549">
+          <rdf:Description rdf:nodeID="Ncc9a805455444177bb56d9df2b4d946a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78391</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T05:32:40</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_07.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29885</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T03:42:10</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1f1731baee13404e926c420107940d6b">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd5f50d44a6ef4f3894642693d92447aa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10594312</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-16T20:11:39</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N303de026cf4b489fb6e9bbca4d8a1e3a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_03.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N47a37344632240b793de73c33bb62968">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4605</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:00:20</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_02.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4201</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N306675dee8034096a9e5337077c650fb">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T05:32:44</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_11.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4407</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:38:46</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne4b0a39abc044101a352e15dd6cc22bc">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_01.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T05:50:02</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N09520264ae18412ea28640ac958010a9">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T05:36:16</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">694229</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_11_A4.pdf">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91228</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:38:52</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-22T04:07:30.471251</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf17d845d72fc42678a30c532f8382e56">
+          <rdf:Description rdf:nodeID="Nf5e7a0e2d5054ccdb4719f24f69447da">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10373</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_06_letter.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93505</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7b381e017e124d8e9fb7170d88b1fcc0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:49:12</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_12_letter.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69619</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:22:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9952da0f114f4b37ad37b24d98fff75c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_01_A4.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T07:21:12</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73464</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5cdc580479b740b28adb46e9adf515ea">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_09.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:44:50</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3795</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N725226ee8a2a437c9b0d53eef0976b31">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N071abebbd7074f58b6d4b43684bc558a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_10.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4437</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nea6a561609ee4c8da39a1f23815979ed">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:09:36</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_Theme_letter.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65029</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T06:59:08</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0a61d482887b499b9ac8329c6ff32ade">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_10_A4.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N748acacde643430795d81442446c3eb4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">71269</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:09:42</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_04_letter.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79971</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:54:04</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfe751c7eaf014a3480abae72eedc3baa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_01.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T07:21:16</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2952</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N11c5691ba2634a7ab812b0cc122e40cc">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_06.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndb1484870dfc4b63a45761c6f1f118ec">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7844</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:49:10</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_07_letter.pdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3cb721207a214b798988b7cc61a1b8d7">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81793</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T03:42:10</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_02.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N67a2ca9214e14be6b1a876677eed6c38">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T05:36:16</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">639894</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_Coda.mid">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12179</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-26T00:05:38</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb276478e19dc4a6184281e7549d67c84">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/31624">
+        <pgterms:name>Bizet, Georges</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1838</pgterms:birthdate>
+        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Georges_Bizet"/>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1875</pgterms:deathdate>
+        <pgterms:alias>Bizet, Alexandre Cesar Leopold</pgterms:alias>
+        <pgterms:alias>Bizet, Alexandre César Léopold</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Georges_Bizet"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_08_letter.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:13:20</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N118e53c5ce474b5d91433774fc1dff46">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62430</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_14_A4.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T15:06:38</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74047</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N82bf16ec2bee4dbd91b507d28be52b7b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_13.mp3">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">644492</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N795c62ec00e34ca0b1d2d74bd1c2e4d2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:40:40</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.txt.utf-8">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndb554cc2d53642188076ecf499564915">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19972</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-22T04:07:30.291244</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_08.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N9a47ccea6f63452c8e68428a15454917">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:27:46</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2868</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N825c6cc3be29465e960857bf0fdaeb10">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2387676</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5a4d8156015548fbb3037e3d3d6d66d7">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/octet-stream</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-05-16T20:11:36</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_Coda_letter.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-26T00:06:28</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nfa02e5a987b34db683485d3fdfc6ece4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133523</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_03.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:04:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">545853</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N37b93f9e984c4a4ba65978c622affe38">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_13_A4.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:38:34</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64887</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na3dc13869872416c9f70deac12edf649">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_07_A4.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne46bed77017746ada9b583b0e7184e80">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T03:42:14</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81922</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_08_A4.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">62212</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7d45954293114ad98ebbc1c82f0b65d2">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:13:24</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N0a58f2a6130a49619a56a0fefda2afba">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+        <rdf:value>M</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_06_A4.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:49:18</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93630</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N55b4346c887c4946ab248e1424e9d07e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N30c1513d9c734653b572df041e91dd7d">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59924</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-22T04:07:30.805223</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_13_letter.pdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc851ad5e93d54574a799273503f149d5">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64857</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:38:30</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-06-11</dcterms:issued>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_13.mid">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15430</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N211ebaf2c78140788d0d41cf4061f269">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:38:30</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.epub.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N8aee5dccbe0c4474a99b54d9867de0ac">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-22T04:07:30.508234</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10372</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_07.mp3">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">554212</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne1e874aead0a4033baffee466bb59fa4">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T03:45:16</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.html.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-22T04:07:30.412257</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N81d74a1777da4e26b6add51f5e04df75">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23224</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_05_A4.pdf">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1d9d28c2edab43e7b78a070a63f349e1">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:18:16</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">68613</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/42911.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">19969</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-06-10T21:06:42</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N61e9bc4bc1634f6d8da5f59eb7622729">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_12_A4.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:22:48</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N2b29ced14a604e8cb9144d5a784f0a68">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">69560</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_03_letter.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:00:22</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85382</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb123e296f2504a94a050fdf59f7a7a5a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <marcrel:edt>
+      <pgterms:agent rdf:about="2009/agents/41925">
+        <pgterms:name>Jong, Songmuh</pgterms:name>
+      </pgterms:agent>
+    </marcrel:edt>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_04.mid">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N1846990fc3f1401897e54d125ba1be5a">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5353</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:54:02</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_Coda.mp3">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc8022d64968d47fa9087f053d73e684d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1847378</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-26T00:17:50</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_11_letter.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:38:48</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92478</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0e164eabd7524fb2914bcc5b35ec057f">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N63d216849c3446f79bf0fab45403028d">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Variations (Piano)</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_14.mp3">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N77ae095e22a44b709d8c1631c08eed1e">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T04:04:44</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">706350</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_12.mp3">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">446379</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne40dc57959124950bfbf2e69f1ef29f6">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T07:25:26</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_03_A4.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N4a518439164b432699f6d7ac511898c1">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:00:28</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85617</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N095d5acfa23e4a24a61d3d1b6ab36840">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_09.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478562</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:47:30</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N18d2a7f146e544419c3d6c61e38f8361">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_08.mp3">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">546689</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T04:30:28</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N33d0587bc00e41bca83f487c9a5e76fa">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_10.mp3">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:12:26</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N3c19f941bcc84aad996baee10e1b77f9">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478562</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_06.mp3">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464351</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N49f0f6bcb49747d79636be6a31f9d564">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T02:52:08</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_01_letter.pdf">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-02-28T07:21:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nc8df9397dcaf48038be2ce3b82f9cff0">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73506</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_02_letter.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-04T05:32:46</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndb7a8582718c450989183566537a0498">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78431</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_Theme.mid">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-11-09T01:19:36</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nddd8537066d34146a8001714de0b4658">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/midi</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2022</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.html.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-22T04:07:30.426259</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23224</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Na7e2542ee1124090a109166ee2bee56d">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/42911.kindle.images">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nce265a28b5564b418226361561b9c865">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">59929</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-22T04:07:30.661228</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_11_A4.pdf">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91228</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T06:38:52</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0ae679fe539a46e782b5f64ec9690a57">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_04.mp3">
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N985e2fd1ab44476e9a772d7a5741ad59">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">504057</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-05T20:56:40</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert_mp3/Bizet-Variations_Chromatiques_de_concert_var_11.mp3">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">613145</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-03T05:51:16</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N90fbcb77d83b4c87a2bb2e316ddcd136">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">audio/mpeg</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/42911/Bizet-Variations_Chromatiques_de_concert/Bizet-Variations_Chromatiques_de_concert_var_14_letter.pdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74070</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N694155eb01ff476d892a40277d9a9548">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/pdf</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2013-03-06T15:06:34</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/42911"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:title>Variations Chromatiques de Concert
+MP3, MIDI and PDF files</dcterms:title>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
-  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Georges_Bizet">
-    <dcterms:description>en.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="http://fr.wikipedia.org/wiki/Georges_Bizet">
     <dcterms:description>fr.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Georges_Bizet">
+    <dcterms:description>en.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
